@@ -2,52 +2,53 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curso HTML</title>
-    <link rel="stylesheet" type="text/css" href=".\style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <!-- <link rel="stylesheet" type="text/css" href=".\style.css"> -->
 </head>
-<body>
-    <div class="">
-
-        <header>
+<body class="bg-green-500 rounded-lg px-6 py-6 flex flex-col min-h-screen">
+    
+    <header class="font-sans md:font-serif font-bold text-3xl text-center">
             <h1>Curso Desenvolvimento Web</h1>
-        </header>
-        <nav>
+    </header>
+    <br>
+    <main class="bg-green-00 grid grid-cols-12 gap-x-4 flex-1">
+        <nav class="col-span-2">
             <ul>
-                <li><a href=".\index.html">Página Principal</a></li>
-                <li><a href=".\sumario.html">Sumário</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li class="bg-gray-500 py-2 text-center underline text-white md:font-serif rounded-xl"><a href=".\index.html">Página Principal</a></li><br>
+                <li class="bg-gray-500 py-2 text-center underline text-white font-sans md:font-serif rounded-xl"><a href=".\sumario.html">Sumário</a></li><br>
+                <li class="bg-gray-500 py-2 text-center underline text-white font-sans md:font-serif rounded-xl"><a href="#">Contato</a></li><br>
+                <li class="bg-gray-500 py-2 text-center underline text-white font-sans md:font-serif rounded-xl"><a href="#">Sobre</a></li>
             </ul>
         </nav>
-        <section>
-            <h2>Lorem Ipsum</h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in nunc neque. In in leo pretium, dictum purus eu, sodales metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus efficitur et tellus sed aliquet. Quisque pretium massa vitae quam accumsan dictum efficitur non arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer molestie ex faucibus, lacinia tortor quis, eleifend est. Duis eget feugiat nunc. Suspendisse imperdiet ex vel lorem tincidunt elementum. Aenean turpis turpis, maximus vel neque eu, faucibus malesuada ipsum. Phasellus arcu sem, mollis bibendum enim sollicitudin, rhoncus posuere ipsum. Suspendisse lacus purus, varius in cursus eget, faucibus pellentesque velit.
-            </p>
+        <section class="px-6 py-6 col-span-10 bg-white rounded-tl-lg">
+            <h2 class="font-sans md:font-serif text-lg text-center">Lorem Ipsum</h2>
+            <br>
+            <p class="font-sans md:font-serif text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in nunc neque. In in leo pretium, dictum purus eu, sodales metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus efficitur et tellus sed aliquet. Quisque pretium massa vitae quam accumsan dictum efficitur non arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer molestie ex faucibus, lacinia tortor quis, eleifend est. Duis eget feugiat nunc. Suspendisse imperdiet ex vel lorem tincidunt elementum. Aenean turpis turpis, maximus vel neque eu, faucibus malesuada ipsum. Phasellus arcu sem, mollis bibendum enim sollicitudin, rhoncus posuere ipsum. Suspendisse lacus purus, varius in cursus eget, faucibus pellentesque velit.
+            </p><br>
 
-            <p>
-            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec in suscipit eros, vel vulputate lectus. In lacinia tempor elit id mattis. Morbi sed commodo felis, ac rutrum tellus. Nullam facilisis metus non laoreet hendrerit. Vestibulum laoreet vehicula lorem. Nunc lectus metus, imperdiet sed rutrum vitae, feugiat eu neque. Duis aliquam neque laoreet enim fermentum porttitor.
-            </p>
+            <p class="font-sans md:font-serif text-justify">
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec in suscipit eros, vel vulputate lectus. In lacinia tempor elit id mattis. Morbi sed commodo felis, ac rutrum tellus. Nullam facilisis metus non laoreet hendrerit. Vestibulum laoreet vehicula lorem. Nunc lectus metus, imperdiet sed rutrum vitae, feugiat eu neque. Duis aliquam neque laoreet enim fermentum porttitor.
+            </p><br>
 
-            <p>
-            Fusce id blandit velit. Aliquam eleifend mollis nulla ut sollicitudin. Donec ac consequat ante, nec rhoncus leo. Vivamus in dui ut est dapibus sollicitudin. Morbi mi neque, suscipit et placerat eu, porttitor eget tortor. Donec ullamcorper, nisl sed dictum dignissim, dolor ligula convallis orci, nec egestas neque purus id dolor. Nam in euismod orci.
-            </p>
+            <p class="font-sans md:font-serif text-justify">
+                Fusce id blandit velit. Aliquam eleifend mollis nulla ut sollicitudin. Donec ac consequat ante, nec rhoncus leo. Vivamus in dui ut est dapibus sollicitudin. Morbi mi neque, suscipit et placerat eu, porttitor eget tortor. Donec ullamcorper, nisl sed dictum dignissim, dolor ligula convallis orci, nec egestas neque purus id dolor. Nam in euismod orci.
+            </p><br>
 
-            <p>
-            Proin sed tincidunt leo. Fusce rhoncus mauris et turpis interdum pharetra. Praesent sollicitudin mauris dapibus sem malesuada tempor. Etiam at facilisis nisl, at viverra mi. Nullam tellus nibh, gravida eu viverra id, pellentesque ac risus. Nam ante risus, lobortis at ante vel, blandit mattis neque. Vestibulum at pulvinar lectus. Ut vehicula ante sagittis nibh facilisis rhoncus tincidunt a diam. Donec nec faucibus erat. Duis sit amet ipsum erat. Fusce porttitor massa tortor, et finibus mauris egestas at. Phasellus vitae aliquam orci. Sed tortor purus, fermentum eget lacus quis, malesuada molestie purus.
-            </p>
+            <p class="font-sans md:font-serif text-justify">
+                Proin sed tincidunt leo. Fusce rhoncus mauris et turpis interdum pharetra. Praesent sollicitudin mauris dapibus sem malesuada tempor. Etiam at facilisis nisl, at viverra mi. Nullam tellus nibh, gravida eu viverra id, pellentesque ac risus. Nam ante risus, lobortis at ante vel, blandit mattis neque. Vestibulum at pulvinar lectus. Ut vehicula ante sagittis nibh facilisis rhoncus tincidunt a diam. Donec nec faucibus erat. Duis sit amet ipsum erat. Fusce porttitor massa tortor, et finibus mauris egestas at. Phasellus vitae aliquam orci. Sed tortor purus, fermentum eget lacus quis, malesuada molestie purus.
+            </p><br>
 
-            <p>
-            Sed aliquam elit id diam ornare, sed egestas dui dapibus. Aenean vestibulum est id purus vestibulum finibus. Duis eget tortor lorem. Duis bibendum mauris nisi, id lacinia neque convallis non. Praesent cursus felis eget tellus tempus, at porttitor libero sodales. Fusce commodo mattis purus quis luctus. Donec tortor tortor, rutrum convallis felis sit amet, pellentesque tempor sem. Donec hendrerit, eros vel pretium molestie, magna augue cursus velit, feugiat elementum neque erat ac lectus. Morbi quis lacus nisl. Ut auctor ex et ornare sagittis. Cras ut magna finibus, aliquam orci sit amet, dignissim libero. Praesent urna orci, elementum vitae volutpat eget, imperdiet a neque. Etiam ac sem in felis imperdiet cursus sed eget dui. Vestibulum eu nisi a ante aliquet pretium.
-            </p>
+            <p class="font-sans md:font-serif text-justify">
+                Sed aliquam elit id diam ornare, sed egestas dui dapibus. Aenean vestibulum est id purus vestibulum finibus. Duis eget tortor lorem. Duis bibendum mauris nisi, id lacinia neque convallis non. Praesent cursus felis eget tellus tempus, at porttitor libero sodales. Fusce commodo mattis purus quis luctus. Donec tortor tortor, rutrum convallis felis sit amet, pellentesque tempor sem. Donec hendrerit, eros vel pretium molestie, magna augue cursus velit, feugiat elementum neque erat ac lectus. Morbi quis lacus nisl. Ut auctor ex et ornare sagittis. Cras ut magna finibus, aliquam orci sit amet, dignissim libero. Praesent urna orci, elementum vitae volutpat eget, imperdiet a neque. Etiam ac sem in felis imperdiet cursus sed eget dui. Vestibulum eu nisi a ante aliquet pretium.
+            </p><br>
         </section>
-        <footer>
-            <p>Copyright 2019 Lorem Ipsum</p>
-        </footer>
-    </div>
+    </main> 
 
-    
+    <footer>
+            <p>Copyright 2019 Lorem Ipsum</p>
+    </footer>
 </body>
 
